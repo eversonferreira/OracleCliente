@@ -1,0 +1,17 @@
+oracleprod =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST =  192.168.0.1)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME =  producao)
+    )
+  )
+
+oracleteste =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST =  192.168.0.2)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME =  teste)
+    )
+  )
